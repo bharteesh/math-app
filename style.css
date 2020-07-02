@@ -1,0 +1,66 @@
+body{
+    background: lightskyblue;
+}
+
+#canvas{
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FDECC9;
+    width: 400px;
+    height: 500px;
+    margin: 40px auto;
+}
+#addDiv{
+    margin: 0px 0px 0px 80px;
+}
+
+#primary-number, #secondary-number{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+#primary-number{
+    border: solid 4px #0D2F6D;
+}
+
+#secondary-number{
+    border: solid 4px #0D2F6D;
+}
+
+#add, #equal{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+input{
+    border: solid 1px #0D2F6D;
+    width: 150px;
+    height: 50px;
+    padding-left: 25px;
+    margin-left: 50px;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    margin: 10px;
+    background: #71220E;
+    color: white;
+    border: 1px solid lightgrey;
+    margin-left: 50px;
+}
+
+#resultLbl {
+    font-weight: bold;
+    font-size: 20px;
+}
+
